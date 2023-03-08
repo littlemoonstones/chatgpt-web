@@ -32,6 +32,7 @@
     "vite": "^4.1.0"
   },
   "dependencies": {
+    "iconify-icon": "^1.0.7",
     "svelte-routing": "^1.6.0"
   }
 }
