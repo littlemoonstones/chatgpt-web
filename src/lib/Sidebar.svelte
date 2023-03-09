@@ -9,8 +9,8 @@
 </script>
 
 <aside class="menu">
-  <p class="menu-label">Chats</p>
-  <ul class="menu-list">
+  <p class="">Chats</p>
+  <ul class="menu bg-base-100 w-56">
     {#if sortedChats.length === 0}
       <li><a class="panel-block" href={"#"}>No chats yet...</a></li>
     {:else}
@@ -31,8 +31,8 @@
       </li>
     {/if}
   </ul>
-  <p class="menu-label">Actions</p>
-  <ul class="menu-list">
+  <p class="">Actions</p>
+  <ul class="">
     <li>
       <a
         href={"#"}

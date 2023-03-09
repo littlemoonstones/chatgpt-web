@@ -19,6 +19,9 @@ export default defineConfig(({ command, mode, ssrBuild }) => {
           ],
         },
       },
+      server: {
+        host: "0.0.0.0"
+      }
     };
   } else {
     return {
